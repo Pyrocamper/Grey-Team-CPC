@@ -20,10 +20,10 @@ import java.nio.file.Paths;
 
 
 public class  Library {
-      public static void main(String[] args){
-         File test = new File("C:\\Users\\kyle addy\\Desktop\\test.txt");
-         
-         addAFile(test);
+    public static void main(String[] args){
+//         File test = new File("C:\\Users\\kyle addy\\Desktop\\test.txt");
+//         
+//         addAFile(test);
     }
    
     Library() {//contructor
@@ -49,16 +49,16 @@ public class  Library {
     
     
     public static void addAFile(File file){//****WIP****//
-        String username = System.getProperty("user.name");
-        
-       Path src = file.toPath();
-       Path dest = Paths.get("C:\\Users\\" + username +"\\Documents\\cpcapplication\\library");
-       
-       try{
-       Files.copy(src, dest, REPLACE_EXISTING);
-       } catch (IOException e)
-       {
-           System.out.println("Failed to Copy file");
-       }
-    }
+//        String username = System.getProperty("user.name");
+//        
+//       Path src = file.toPath();
+//       Path dest = Paths.get("C:\\Users\\" + username +"\\Documents\\cpcapplication\\library");
+//       
+//       try{
+//       Files.copy(src, dest, REPLACE_EXISTING);
+//       } catch (IOException e)
+//       {
+//           System.out.println("Failed to Copy file");
+//       }
+//    }
 }
