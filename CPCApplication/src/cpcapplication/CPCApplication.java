@@ -1,6 +1,6 @@
 /*
  * Senior Portfolio Entry
- * Student Name: Chris McClure
+ * Student Name: Chris M, Chris H, Kyle A, Taylor P,
  * Program Name: Code Plagiarism Checker
  * Creation Date: 
  * Last Modified Date:
